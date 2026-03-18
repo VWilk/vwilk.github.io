@@ -13,7 +13,9 @@ const NAV_LINKS = [
     { href: "#contact", label: "Contact" },
 ];
 
-const SUBSITE_LINKS = [{ href: "subsites/pgpWebsite/pgpWebsite.html", label: "PGP Key", external: true }];
+const SUBSITE_LINKS = [
+    { href: "html/subsites/pgpWebsite/pgpWebsite.html", label: "PGP Key", external: true },
+];
 
 const STORY_SCENES = [
     {
@@ -116,7 +118,7 @@ function Hero() {
                     e(
                         "a",
                         {
-                            href: "subsites/pgpWebsite/pgpWebsite.html",
+                            href: "html/subsites/pgpWebsite/pgpWebsite.html",
                             className: "btn btn--ghost",
                             target: "_blank",
                             rel: "noreferrer",
@@ -329,7 +331,7 @@ function Contact() {
             e(
                 "a",
                 {
-                    href: "subsites/pgpWebsite/pgpWebsite.html",
+                    href: "html/subsites/pgpWebsite/pgpWebsite.html",
                     target: "_blank",
                     rel: "noreferrer",
                     className: "contact__value",

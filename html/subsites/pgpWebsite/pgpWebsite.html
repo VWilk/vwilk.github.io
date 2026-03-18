@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="VWilk public PGP key." />
+        <meta name="theme-color" content="#0b0f16" />
+        <title>VWilk | PGP Key</title>
+        <link rel="stylesheet" href="../../../css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="pgp-page">
+        <main class="pgp-shell">
+            <section class="pgp-card">
+                <div class="pgp-header">
+                    <div class="pgp-pill">PGP • Public Key</div>
+                    <h1>VWilk Public Key</h1>
+                    <p>
+                        Prefer encrypted contact? Copy the key below or open it in your preferred tool.
+                    </p>
+                </div>
+                <div class="pgp-body">
+                    <div class="pgp-preview">
+                        <div class="pgp-preview__label">Key Preview</div>
+                        <embed
+                            src="../../../data/VWilk_0x3871C00A9A787DB8_public.asc"
+                            id="pgpKey"
+                            class="pgp-embed"
+                        />
+                    </div>
+                    <div class="pgp-actions">
+                        <button class="pgp-btn" onclick="givePgpKey()">Copy Key Text</button>
+                        <a class="pgp-link" href="../../../data/VWilk_0x3871C00A9A787DB8_public.asc" download>
+                            Download .asc
+                        </a>
+                        <a class="pgp-link" href="../../index.html">Back to portfolio</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../../../js/pgp.js"></script>
+    </body>
+</html>
